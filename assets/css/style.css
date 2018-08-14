@@ -1,0 +1,97 @@
+.navbar-brand {
+    /* color: ?????*/
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: auto;
+    background-image: url(../images/geometry2.png);
+}
+
+.header {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #4aaaa5;
+}
+
+.maincontainer {
+    margin-top: 40px;
+    border: 1px dashed #00a5bb;
+    background-color: #ffffff;
+    margin-bottom: 90px;
+}
+
+.row1-aboutme {
+    /* personalize */
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #00a5bb;
+}
+
+.divider {
+    height: 3px;
+    background: radial-gradient(#047b8a,rgba(255,0,0,0));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rowgeneral {
+    background-color: lightgray;
+}
+
+.row2 {
+    margin-top: 30px;
+}
+
+/* .cardcolumns {
+    @include media-breakpoint-only(lg) {
+        column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+} */
+
+.headshot {
+    padding-right: 20px;
+}
+
+.row2-maincontent {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #616a72;
+}
+
+#content {
+    width: 100%;
+    /* background-color: lightgray; */
+}
+
+#mainMessage {
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+}
+
+.stickybottom {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
